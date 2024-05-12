@@ -1,0 +1,22 @@
+#include <iostream>
+#include <stack>
+
+int main() {
+    std::stack<int> myStack;
+
+    // Push elements onto the stack
+    myStack.push(10);
+    myStack.push(20);
+    myStack.push(30);
+
+    // Print the top element
+    std::cout << "Top element: " << myStack.top() << std::endl;
+
+    // Pop an element from the stack
+    myStack.pop();
+
+    // Print the new top element
+    std::cout << "New top element: " << myStack.top() << std::endl;
+
+    return 0;
+}
